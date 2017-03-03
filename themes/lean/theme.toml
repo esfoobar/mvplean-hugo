@@ -1,0 +1,7 @@
+name = "Lean"
+license = "MIT"
+description = "A minimal template"
+
+[author]
+  name = "Jorge Escobar"
+  homepage = "https://jorge3.com"
