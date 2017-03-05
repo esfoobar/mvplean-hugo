@@ -1,19 +1,20 @@
 body{
   font-family: 'Lato', sans-serif;
+  background: #fff;
 }
 
 .navbar-custom {
-  background: #9C6FBC;
+  background: #eee;
   font-size: 1.2em;
   font-weight: bold;
 }
 
 #nav-main-items > li > a {
-  color: #ddd;
+  color: #333;
 }
 
 #nav-main-items > li > a:hover {
-  color: #fff;
+  color: #aaa;
 }
 
 #nav-logo {
@@ -26,16 +27,39 @@ body{
 }
 
 header {
-  background: #E5E5E5;
   padding: 25px 0 25px 0;
 }
 
-h1, h2 {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+section {
+    padding: 15px;
 }
 
-#experience {
-    background: #D8EAE4;
+#home-intro {
+    color: #eee;
+    padding-top: 50px;
+}
+
+#home-intro-div {
+    height: 350px;
+}
+
+#home-intro-h2 {
+    font-size: 4em;
+}
+
+#home-intro-p {
+    font-size: 2em;
+}
+
+#home-experience {
+    background: #9C6FBC;
+    color: #eee;
+}
+
+.home-icon {
+    font-size: 7em;
+    color: #fff;
+    height: 120px;
 }
 
 # colorpalette
