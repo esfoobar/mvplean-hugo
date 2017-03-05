@@ -1,6 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{{ .Site.Title }}</title>
+
+  <!-- Bootstrap/Font Awesome CSS -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
 <body>
-  <p>hugo says hello!</p>
-</body>
-</html> 
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="images/mvp-lean-logo.png" height="200px" alt="MVP Lean Logo" />
+            </div> <!-- col-lg-12 -->
+        </div> <!-- row -->
+    </div> <!-- container -->
+</header>
+
+<section id="home-intro" style="background-image: url('images/startup.png');">
+  <div class="container">
+    <div class="row">
+      <div id="home-intro-div" class="col-lg-12">
+        <h2 id="home-intro-h2">The first few months of a tech startup are the most crucial
+for its success.</h2>
+        <p id="home-intro-p"> Unfortunately, due to the lack of experience of most founders, they
+often hire service providers that are not thinking about long term roadmaps, delivering buggy, non-scalable and often throw away mvps.</p>
+      </div> <!-- col-lg-12 -->
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section> <!-- section home-intro -->
+
+<section id="home-experience">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>MVP Lean  is a full service consulting firm that helps startups and medium sized tech companies with the following services:</h3>
+      </div> <!-- col-lg-12 -->
+    </div> <!-- row -->
+
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+        <h4>Designing and coding MVPs for startups</h4>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+        <h4>Designing a solid foundational cloud infrastructure and architecture</h4>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+        <h4>Assistance with identifying and interviewing initial developers</h4>
+      </div> <!-- col-lg-4 -->
+    </div> <!-- row -->
+
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+        <h4>Evaluating outsourcing vendors</h4>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-map-o" aria-hidden="true"></i></div>
+        <h4>Auditing outsourced codebases and help deciding on refactoring or rewriting</h4>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <div class="home-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
+        <h4>Coaching founders on everything related to technology decisions</h4>
+      </div> <!-- col-lg-4 -->
+    </div> <!-- row -->
+
+  </div> <!-- container -->
+</section> <!-- section home-experience -->
+
+<section id="home-who">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>MVP Lean was founded by <a target="_new" href="https://jorge3.com/">Jorge Escobar</a>, a technologist with 15 years of experience kickstarting projects, building successful platforms from scratch and helping leading companies to restructure their engineering organizations</h2>
+        <p class="lead">MVP Lean doesn’t charge hourly rates  and works with companies to get service with flat monthly fees so that they can get the best service within their budgets. To get your startup on the right track <a href="mailto:jorge@mvplean.com">contact us</a>.</p>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section> <!-- section home-intro -->
+
+{{ partial "footer.html" . }}

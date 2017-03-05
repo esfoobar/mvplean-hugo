@@ -1,0 +1,71 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+}
+
+.navbar-custom {
+  background: #eee;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#nav-main-items > li > a {
+  color: #333;
+}
+
+#nav-main-items > li > a:hover {
+  color: #aaa;
+}
+
+#nav-logo {
+  color: #eee;
+  font-size: 1.4em;
+}
+
+.nav-body {
+  padding-top: 50px;
+}
+
+header {
+  padding: 25px 0 25px 0;
+}
+
+section {
+    padding: 15px;
+}
+
+#home-intro {
+    color: #eee;
+    padding-top: 50px;
+}
+
+#home-intro-div {
+    height: 350px;
+}
+
+#home-intro-h2 {
+    font-size: 4em;
+}
+
+#home-intro-p {
+    font-size: 2em;
+}
+
+#home-experience {
+    background: #9C6FBC;
+    color: #eee;
+}
+
+.home-icon {
+    font-size: 7em;
+    color: #fff;
+    height: 120px;
+}
+
+# colorpalette
+# Black: #333333
+# Grey: #E5E5E5
+# Cyan: #00C9FF
+# Magenta: #9C6FBC
+# Green: #7FD3C2
+# Light-green: #D8EAE4

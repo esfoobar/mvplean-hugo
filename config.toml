@@ -2,3 +2,8 @@ languageCode = "en-us"
 title = "MVP development for Statups - MVPLean"
 baseurl = "https://mvplean.com"
 theme = "lean"
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+    blog = "/blog/:year/:month/:title/"

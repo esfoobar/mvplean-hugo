@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>MVP Lean</title>
+  <title>{{ .Site.Title }}</title>
 
   <!-- Bootstrap/Font Awesome CSS -->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -30,3 +30,43 @@
 </head>
 
 <body class="nav-body">
+
+{{ partial "nav.html" . }}
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Jorge Escobar</h1>
+        <h2>Startup Builder - Consultant - Mentor</h2>
+        <p class="lead">Building and leading complex technology projects and teams since 1998</p>
+      </div> <!-- col-lg-12 -->
+    </div> <!-- row -->
+  </div> <!-- container -->
+</header> <!-- header -->
+
+<section id="experience">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Experience</h2>
+      </div> <!-- col-lg-12 -->
+    </div> <!-- row -->
+
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <h3>MongoDB</h3>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <h3>Venmo</h3>
+      </div> <!-- col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <h3>Knewton</h3>
+      </div> <!-- col-lg-4 -->
+    </div> <!-- row -->
+
+  </div> <!-- container -->
+</section>
+
+{{ partial "footer.html" . }}
